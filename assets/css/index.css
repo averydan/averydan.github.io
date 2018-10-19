@@ -1,0 +1,34 @@
+.list-group-item {
+  color: rgb(134,142,150);
+}
+
+.simple-slider {
+  padding: 10%;
+}
+
+#skillsect {
+  background-color: rgba(30,30,30,0.61);
+  border-radius: 50px;
+}
+
+#skills {
+  color: rgb(134,142,150);
+}
+
+.pb-5, .py-5 {
+  text-align: center;
+}
+
+#contactSect {
+  background-color: rgba(30,30,30,0.61);
+  border-radius: 50px;
+  padding-bottom: 10px;
+}
+
+#badges {
+  color: #fed136;
+}
+
+.rounded-circle {
+  height: 100% !important;
+}
