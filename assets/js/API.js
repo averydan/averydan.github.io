@@ -29,6 +29,7 @@ function displayResults(json) {
     if (recipes.length === 0) {
         console.log("No results");
     } else {
+        let fixResizeBug
         for(let i = 0; i < recipes.length; i++) {
           let mainSlider = document.querySelector('#makeSlider');
           let div = document.createElement('div');
@@ -48,7 +49,9 @@ function displayResults(json) {
           div.style.backgroundImage = image;
           div.appendChild(divCont);
           section.appendChild(div);
-            mainSlider.className = 'simple-slider';
+          //mainSlider.className = 'simple-slider';
+          fixResizeBug = mainSlider
         }
+        fixResizeBug.className = 'simple-slider';
       }
     }
